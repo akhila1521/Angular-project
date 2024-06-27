@@ -1,0 +1,104 @@
+/* 
+
+  mat-button-toggle-group{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: auto;
+    height: 30px;
+  }
+
+  .example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+ 
+  .example-section {
+    margin: 12px 0;
+  }
+  
+  .example-margin {
+    margin: 0 12px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin-top: 4px;
+  } */
+
+/* .mainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sub1{
+    border: 1px solid black;
+    margin: 10px;
+    height: 50px;
+    width: 100px;
+  }
+
+  .sub2{
+    border: 1px solid black;
+    margin: 10px;
+    height: 50px;
+    width: 100px;
+  } */
+/* 
+  .circle{
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: black;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+  } */
+
+/* .item1 {grid-area: header;}
+.item2 {grid-area: menu;}
+.item3 {grid-area: main;}
+.item4 {grid-area: right;}
+.item4 {grid-area: footer;}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header header header header'
+  'menu main main main right right'
+  'menu footer footer footer footer footer';
+gap: 10px;
+background-color: #2196F3;
+padding: 10px;
+}
+.grid-container > div{
+  background-color: rgba(255, 255, 255,0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+} */
+
+.mainDiv{
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  background-color: aliceblue;
+border-radius: 10px;
+box-shadow: 5px 5px 5px  grey;
+}
+
+.photo{
+  border-radius: 50%;
+}
+
+.hire{
+  border-color: rgb(252, 252, 252);
+  padding: 10px 20px;
+  background-color:blue;
+  color: beige;
+  border-radius: 5px;
+}
+
