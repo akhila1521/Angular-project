@@ -1,6 +1,52 @@
-
+<!-- 
 <app-header></app-header>
 
 <router-outlet></router-outlet>
 
+<h1 class="nav justify-content-center">
+    Testing Resolvers With the Github User's API
+  </h1>
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['', { outlets: { with: ['Resolver'] } }]"
+        >With Resolver</a
+      >
+    </li>
+    <li class="nav-item">
+      <a
+        class="nav-link"
+        [routerLink]="['', { outlets: { without: ['noResolver'] } }]"
+        >Without Resolver</a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link specialNav" (click)="navigateHome()">Clear Outlets</a>
+    </li>
+  </ul>
+  
+  <div class="row">
+    <router-outlet></router-outlet>
+    <div class="col-6">
+      <h3>With Resolver</h3>
+      <router-outlet name="with"></router-outlet>
+    </div>
+    <div class="col-6">
+      <h3>Without Resolver</h3>
+      <router-outlet name="without"></router-outlet>
+    </div>
+  </div>
 
+ -->
+  <!-- <div class="container">
+<h1>Angular Store</h1>
+ <app-header></app-header>
+
+ <router-outlet></router-outlet>
+ <hr>
+ <a href="www.angularacademy.ca">www.angularacademy.ca </a><p>2020 (using Angular v8.0.0)</p>
+ <a [routerLink]="['/admin']" class='Active'>login</a>
+  </div> -->
+
+  <app-navbar></app-navbar>
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
