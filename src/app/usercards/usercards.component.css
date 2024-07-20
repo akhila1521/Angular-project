@@ -1,0 +1,9 @@
+.parentDiv{
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-left: 60px;
+    background-color: rgb(201, 217, 217);
+}
